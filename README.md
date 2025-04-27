@@ -1,14 +1,14 @@
 ---
 Author: Jason Lowe-Power
-Editor:  Maryam Babaie, Mahyar Samani, Kaustav Goswami
+Editor:  Maryam Babaie, Mahyar Samani, Kaustav Goswami, Victor Borup
 Title: Effects of Pipelining
 ---
 
 Originally from University of Wisconsin-Madison CS/ECE 752.
 
-Modified for ECS 201A, Winter 2024.
+Modified for ECS 154B, Spring 2025.
 
-**Due on XXX 1:59 pm (PST)**: See [Submission](#submission) for details
+**Due on May 9 11:59 pm (PST)**: See [Submission](#submission) for details
 
 ## Table of Contents
 
@@ -162,7 +162,7 @@ Use clear reasoning and visualization to drive your conclusions.
 ### Step I: Write down your hypotheses
 
 Before starting simulation and analysis, you should be able to identify the ROI of a  program.
-For your reference, **issue latency** measures the number of cycles between injection two consecutive instructions into the pipeline.
+For your reference, **issue latency** measures the number of cycles between injection of two consecutive instructions into the pipeline.
 An **issue latency** of `4 cycles` means that an instruction is injected to the pipeline, once every *4 cycles*.
 On the other hand, **floating point operation latency** refers to the number of cycles it takes to complete the execution of a **floating point instruction**.
 A **floating point operation latency** of `8 cycles` means that it will take `8 cycles` for the instruction to be executed once injected into the pipeline.
@@ -253,7 +253,7 @@ Do you think only looking at the instruction mix gathered from [Step I](#step-i-
 
 **NOTE**: Make sure to keep the simulation output for all of your simulation runs for your later analyses.
 
-### Next steps (required 201A, extra credit 154B):
+### Next steps extra credit 154B:
 
 Answer the following questions in your report.
 Include information on how you designed the experiment, what you measured, and the analyzed the data.
@@ -267,14 +267,14 @@ You will submit this assignment via GitHub Classroom.
 1. Accept the assignment by clicking on the link provided in the announcement.
 2. Create a Codespace for the assignment on your repository.
 3. Fill out the `questions.md` file.
-4. Commit your changes.
+4. Commit and push your changes.
 
 Make sure you include both your runscript, an explanation of how to use your script, and the questions to the questions in the `questions.md` file.
 
 ### Explanation of how to use your script
 
-Include a detailed explanation of how to use your script and how you use your script to generate your answers (this will be more applicable in future assignments).
-Make sure that all paths are relative to this directory (`assignment-1/`).
+Include a detailed explanation of how to use your script and how you use your script to generate your answers.
+Make sure that all paths are relative to this directory (`gem5-assignment2-<your-team-name>/`).
 The code included in the "Example command to run the script" section should be able to be copied and pasted into a terminal and run without modification.
 
 - You should include a sentence or two which describes what the script (or scripts) do under "Explanation of the script" in `questions.md`.
@@ -293,7 +293,7 @@ The code included in the "Example command to run the script" section should be a
 
 ## Academic misconduct reminder
 
-You are required to work on this assignment in teams. You are only allowed to share you scripts and code with your teammate(s).
+You are required to work on this assignment in teams or individually. You are only allowed to share you scripts and code with your teammate(s).
 You may discuss high level concepts with others in the class but all the work must be completed by your team and your team only.
 
 Remember, DO NOT POST YOUR CODE PUBLICLY ON GITHUB! Any code found on GitHub that is not the base template you are given will be reported to SJA.
